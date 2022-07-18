@@ -1,14 +1,14 @@
-import Head from 'next/head';
 import React from 'react';
+import Meta from '../components/Meta';
 
 const about = () => {
   return (
-    <div>
-      <Head>
-        <title>About</title>
-      </Head>
-      <h1>About</h1>
-    </div>
+    <>
+      <Meta title='About' />
+      <div>
+        <h1>About</h1>
+      </div>
+    </>
   );
 };
 
